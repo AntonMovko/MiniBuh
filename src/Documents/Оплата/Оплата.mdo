@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5368a46-9ddb-4826-84c4-3c1d33226261">
+  <producedTypes>
+    <objectType typeId="a96f2441-f6b3-483d-b2ce-9c39278b3eb5" valueTypeId="d7fcdc37-c206-481f-a5d1-8cdc6bbe6279"/>
+    <refType typeId="1bce4c8f-8af5-4bba-8baa-d058bd5e2510" valueTypeId="8301d6ca-78af-4e5c-92ec-b37da1cef689"/>
+    <selectionType typeId="ad0c8cec-4220-4ccd-bb38-f895e0b96e0d" valueTypeId="07e5a258-f3e6-4337-b4d5-1f8298fd838c"/>
+    <listType typeId="8a1fc28a-ef8f-4972-abc7-d94dbb8ab119" valueTypeId="b9974711-117b-44e3-94b9-3819b41970dc"/>
+    <managerType typeId="55f77dab-006e-42c4-a2d4-3f34dfae19ff" valueTypeId="f3cf8f03-d596-4a76-967b-243e65196ed0"/>
+  </producedTypes>
+  <name>Оплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Оплата.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d1ab5567-afc0-492e-86dd-75f6587aece6">
+    <name>Плательщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="03d4487f-9d2c-432e-a31f-97c5e327dab5">
+    <producedTypes>
+      <objectType typeId="7b01fc69-a783-4ca2-9900-e0d1fd46a77f" valueTypeId="48f55a51-7622-4079-aeb4-8c903169642a"/>
+      <rowType typeId="8e14ba0f-c2ff-4255-87da-905c7c7c002d" valueTypeId="2d75692f-8954-4fc2-9b6e-b79ecabcb800"/>
+    </producedTypes>
+    <name>ОплаченыеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплаченые работы</value>
+    </synonym>
+    <attributes uuid="f0f97e58-2599-4991-af12-435d621465a6">
+      <name>Заявка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Заявка</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7e87b1eb-8c86-4ea7-8fc9-330db4af0659">
+      <name>ВидРабот</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид работ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыРабот</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5a095f96-471e-45da-8fd6-6b3e08dd1c02">
+      <name>ЧеловекоЧасы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Человеко-часы</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bbf7f80d-7f65-4f22-af1a-acb88280012a">
+      <name>Стоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
