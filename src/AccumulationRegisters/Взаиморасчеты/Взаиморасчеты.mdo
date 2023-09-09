@@ -49,13 +49,13 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="f9b5a373-f344-436e-ae1b-5bff8d4e3dc8">
-    <name>Заказчик</name>
+    <name>Заявка</name>
     <synonym>
       <key>ru</key>
-      <value>Заказчик</value>
+      <value>Заявка</value>
     </synonym>
     <type>
-      <types>CatalogRef.Контрагенты</types>
+      <types>DocumentRef.Заявка</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -63,13 +63,13 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="4fa1028b-cb46-4e5b-9d5b-ae210a225418">
-    <name>ДляКого</name>
+    <name>ВидРабот</name>
     <synonym>
       <key>ru</key>
-      <value>Для кого</value>
+      <value>Вид работ</value>
     </synonym>
     <type>
-      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.ВидыРабот</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
