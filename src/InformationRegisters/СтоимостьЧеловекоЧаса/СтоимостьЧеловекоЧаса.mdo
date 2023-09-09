@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95b7913d-fa71-4341-844e-3577fac50f5b">
+  <producedTypes>
+    <selectionType typeId="fd578c4b-f975-402e-b95b-80bd63426b99" valueTypeId="ea6eec80-961c-4e2b-8d69-9b72af6bda50"/>
+    <listType typeId="1d27fb26-63f7-40de-8ad5-ddb619e2f308" valueTypeId="8b33521f-a7a7-4320-80ed-1b4ffc0490a3"/>
+    <managerType typeId="f79c0331-c90e-44c4-8a4e-2c2f796d5301" valueTypeId="591c9688-cf06-423e-b677-6727cd290629"/>
+    <recordSetType typeId="1cb42440-b283-44a1-831c-22d24fdecfaa" valueTypeId="abdc9769-9b79-4fb7-b5e1-0e48cc1c1594"/>
+    <recordKeyType typeId="45c6e835-3cc9-45c2-8baa-42d2e52203c6" valueTypeId="979d05e0-1e15-414a-975d-4bf95a4e4c11"/>
+    <recordType typeId="7dda31ed-f113-4121-9a8b-a06c9cd4af92" valueTypeId="2aad9e7b-ab02-49a9-8aeb-95e2d7322084"/>
+    <recordManagerType typeId="6a0ede58-aac5-4c60-aff2-5c2968587157" valueTypeId="6324a500-b8a5-48ba-abd7-5c32cd9d9851"/>
+  </producedTypes>
+  <name>СтоимостьЧеловекоЧаса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость человеко-часа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="bda50092-22fc-4652-a021-1053fb29fd4d">
+    <name>СтоимостьЧеловекоЧаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость человеко-часа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
