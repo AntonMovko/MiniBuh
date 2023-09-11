@@ -108,10 +108,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="bbf7f80d-7f65-4f22-af1a-acb88280012a">
-      <name>Стоимость</name>
+      <name>СтоимостьРабот</name>
       <synonym>
         <key>ru</key>
-        <value>Стоимость</value>
+        <value>Стоимость работ</value>
       </synonym>
       <type>
         <types>Number</types>
