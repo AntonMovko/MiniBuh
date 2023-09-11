@@ -39,6 +39,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ОбработкаТабличныхЧастейВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбработкаТабличныхЧастейКлиент</commonModules>
   <catalogs>Catalog.ВидыРабот</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <documents>Document.Заявка</documents>
