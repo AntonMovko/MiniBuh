@@ -33,15 +33,16 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="afce8614-d699-40c0-b143-47e052e85811">
-    <name>Сумма</name>
+    <name>СтоимостьРабот</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма</value>
+      <value>Стоимость работ</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>15</precision>
+        <scale>2</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

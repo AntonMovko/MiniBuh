@@ -45,6 +45,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <documents>Document.Заявка</documents>
   <documents>Document.Оплата</documents>
+  <dataProcessors>DataProcessor.Взаиморасчеты</dataProcessors>
   <informationRegisters>InformationRegister.СтоимостьЧеловекоЧаса</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
 </mdclass:Configuration>

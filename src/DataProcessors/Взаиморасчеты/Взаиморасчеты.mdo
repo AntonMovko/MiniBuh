@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53daa72c-5b2b-4b4a-9fb3-0c9290605f22">
+  <producedTypes>
+    <objectType typeId="3cd047f0-edb8-483c-9d27-5c41144f8c4b" valueTypeId="badc2300-ef84-4457-88a9-7db307d89506"/>
+    <managerType typeId="0d5786cb-3468-4594-bc55-19d12a6dd6a9" valueTypeId="5c3f21eb-4abf-4f4c-a1d8-f95a7d3d0b48"/>
+  </producedTypes>
+  <name>Взаиморасчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Взаиморасчеты.Form.Форма</defaultForm>
+  <tabularSections uuid="beb0028d-3d29-4dcf-adba-f913ce13bf21">
+    <producedTypes>
+      <objectType typeId="60dda3ad-918d-434b-adf0-174771b0edb2" valueTypeId="914bd658-faf7-40d3-8320-d69148ee2380"/>
+      <rowType typeId="15fd6d92-85a9-4218-920f-8403ef543e11" valueTypeId="9b9396ce-2de2-471b-ace0-363248182f09"/>
+    </producedTypes>
+    <name>НеоплаченныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неоплаченные работы</value>
+    </synonym>
+    <attributes uuid="17d2a7e0-a1e7-4fe2-966f-aed74b0d8543">
+      <name>Заявка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Заявка</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6ab421d2-6e8a-441f-861a-f901645dc676">
+      <name>ВидРабот</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид работ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыРабот</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="208834b5-9d06-4e41-9405-26ea57b725f6">
+      <name>ЧеловекоЧасы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Человеко-часы</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c37ad2f6-979b-4d25-9c8f-d0f0ee34860b">
+      <name>СтоимостьРабот</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость работ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b3f10fdc-d939-4311-a2f1-dd26b1527b01">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
