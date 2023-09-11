@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Оплата.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="d1ab5567-afc0-492e-86dd-75f6587aece6">
